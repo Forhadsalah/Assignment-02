@@ -1,0 +1,84 @@
+/* box part*/
+*{
+	margin:0;
+	padding:0;
+}
+.box{
+	height:300px;
+	width:500px;
+	background-color:green;
+	margin:50px auto ;
+}
+.box h1{
+   color:white;
+   font:15px;
+   padding:130px 0px 0px 140px;
+}
+/*menu-bar part*/
+.menu-bar{
+	text-align:center;
+	height:150px;
+	background-color:#000000;
+	line-height:150px;
+}
+.menu-bar ul li{
+	display:inline-block;
+}
+.menu-bar ul li a{
+	font-size:18px;
+	color:#F5CD0A;
+	font-weight:600;
+	margin:0px 15px;
+	transition:1s; 
+}
+.menu-bar ul li a:hover{
+	color:#80fce0;
+	font-size:20px;
+	transition:1s;
+}
+/*cover part*/
+.cover{
+	background-image:url(../img/covers.jpg);
+	background-size:cover ;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:100vh; 
+}
+.cover h1{
+	font-size:40px;
+	color:#00FFFF;
+	text-align:center;
+	padding-top:185px;
+}
+/*media icons*/
+.social-media{
+	text-align:center;
+	margin-top:80px;
+}
+.social-media ul li {
+	  display:inline-block;
+}
+.social-media ul li a i{
+	font-size:25px;
+	height:90px;
+	width:70px;
+	background-color:#F5CD0A;
+	border-radius:100px;
+	line-height:90px;
+	margin:0px 15px;
+	transition:1s;
+}
+.social-media ul li a i:hover{
+	color:white;
+	transition:1s;
+	transform:scale(.5);
+}
+
+
+
+
+
+
+
+
+
